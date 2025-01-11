@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 intencion.putExtra("status", 1);
                 intencion.putExtra("soltera", true);
                 startActivity(intencion);
+                  // Verificar si el correo y contraseña son correctos
             } else {
                 // Mostrar un mensaje de error si las credenciales son incorrectas
                 Toast.makeText(getApplicationContext(), "Verifica el usuario y el password", Toast.LENGTH_LONG)
