@@ -34,6 +34,18 @@
         android:textSize="28sp"
         android:textStyle="bold" />
 
+     <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Inicio de seción"
+        android:textColor="#FF6200EE"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
     <!-- Campo de Usuario -->
     <EditText
         android:id="@+id/editTextEmail"
